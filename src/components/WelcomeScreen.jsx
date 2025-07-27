@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function WelcomeScreen() {
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="flex items-center justify-center min-h-full p-4">
       <div className="text-center max-w-md mx-auto">
         <div className="mb-6">
           <MessageCircle size={64} className="mx-auto text-blue-500 mb-4" />
